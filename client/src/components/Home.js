@@ -3,11 +3,7 @@ import LandingPage from "./LandingPage";
 
 function Home({ user }) {
   if (user) {
-    return (
-      <>
-        <LandingPage />
-      </>
-    );
+    return <>Welcome </>;
   } else {
     return <h1>Please Login or Sign Up</h1>;
   }
